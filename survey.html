@@ -17,14 +17,21 @@
       <form id="survey-form">
         <fieldset>
           <legend>Please fill out the following information</legend>
-          <label>
+          <label id="name-label">
             Name: <input id="name" type="text" placeholder="enter name" />
           </label>
-          <label>
+          <label id="email-label">
             Email: <input id="email" type="email" placeholder="enter email" />
           </label>
-          <label>
-            Age: <input id="age" type="number" placeholder="enter age" required
+          <label id="age-label">
+            Age:
+            <input
+              id="age"
+              type="number"
+              placeholder="enter age"
+              min="18"
+              max="120"
+              required
           /></label>
         </fieldset>
         <fieldset>
@@ -50,8 +57,10 @@
         </fieldset>
         <fieldset>
           <legend>Do you still have student loan?</legend>
-          <label><input name="status" type="radio" checked /> Yes </label>
-          <label><input name="status" type="radio" /> No </label>
+          <label
+            ><input name="status" value="yes" type="radio" checked /> Yes
+          </label>
+          <label><input name="status" value="no" type="radio" /> No </label>
         </fieldset>
         <hr />
         <fieldset>
@@ -62,7 +71,7 @@
             ></textarea>
           </label>
         </fieldset>
-        <input type="submit" />
+        <input id="submit" type="submit" />
       </form>
     </main>
   </body>
