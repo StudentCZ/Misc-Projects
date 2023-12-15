@@ -16,13 +16,13 @@
       <form id="survey-form">
         <fieldset>
           <legend>Please fill out the following information</legend>
-          <label> Name: <input id="name" type="text" /> </label>
-          <label> Email: <input id="email" type="email" /> </label>
-          <label> Age: <input id="age" type="number" /></label>
+          <label> Name: <input id="name" type="text" required /> </label>
+          <label> Email: <input id="email" type="email" required /> </label>
+          <label> Age: <input id="age" type="number" required /></label>
         </fieldset>
         <fieldset>
           <legend>What type of loan do you have?</legend>
-          <label>Public <input id="public" type="checkbox" /></label>
+          <label>Public <input id="public" type="checkbox" checked /></label>
           <label>Private <input id="private" type="checkbox" /></label>
           <label>Both <input id="both" type="checkbox" /></label>
         </fieldset>
@@ -43,7 +43,7 @@
         </fieldset>
         <fieldset>
           <legend>Do you still have student loan?</legend>
-          <label><input name="status" type="radio" /> Yes </label>
+          <label><input name="status" type="radio" checked /> Yes </label>
           <label><input name="status" type="radio" /> No </label>
         </fieldset>
       </form>
