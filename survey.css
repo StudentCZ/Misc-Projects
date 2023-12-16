@@ -5,7 +5,8 @@ body {
 }
 
 hr {
-  width: 500px;
+  width: 50vw;
+  max-width: 500px;
 }
 
 fieldset {
