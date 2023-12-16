@@ -1,3 +1,8 @@
+body {
+  background-color: #000000;
+  color: #e5e5e5;
+}
+
 #submit {
   margin-top: 20px;
 }
