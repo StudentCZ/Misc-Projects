@@ -4,9 +4,16 @@ body {
   text-align: center;
 }
 
+hr {
+  width: 500px;
+}
+
 fieldset {
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 50vw;
+  max-width: 500px;
+  text-align: center;
 }
 
 #submit {
