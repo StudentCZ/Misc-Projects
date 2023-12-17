@@ -4,6 +4,14 @@ body {
   text-align: center;
 }
 
+#name-label,
+#email-label,
+#age-label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 #title {
   font-size: 50px;
 }
