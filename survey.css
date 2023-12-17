@@ -35,6 +35,10 @@ fieldset {
   font-size: 20px;
 }
 
+input[type='number'] {
+  width: 10vw;
+}
+
 #submit {
   margin-top: 20px;
 }
