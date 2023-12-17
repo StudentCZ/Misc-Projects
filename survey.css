@@ -4,6 +4,14 @@ body {
   text-align: center;
 }
 
+#title {
+  font-size: 50px;
+}
+
+#description {
+  font-size: 25px;
+}
+
 hr {
   width: 50vw;
   max-width: 500px;
