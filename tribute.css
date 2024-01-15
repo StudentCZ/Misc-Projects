@@ -16,6 +16,10 @@ body {
   font-family: Futura;
 }
 
+#tribute-info {
+  font-family: sans-serif;
+}
+
 ol {
   list-style-position: inside;
   margin-left: auto;
