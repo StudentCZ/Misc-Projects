@@ -12,6 +12,10 @@ body {
   font-family: Futura;
 }
 
+.heading {
+  font-family: Futura;
+}
+
 ol {
   list-style-position: inside;
   margin-left: auto;
