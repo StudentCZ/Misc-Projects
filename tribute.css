@@ -16,7 +16,8 @@ body {
   font-family: Futura;
 }
 
-#tribute-info {
+#tribute-info,
+#img-caption {
   font-family: sans-serif;
 }
 
